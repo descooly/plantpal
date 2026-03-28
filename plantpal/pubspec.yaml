@@ -1,0 +1,25 @@
+name: plantpal
+description: Трекер ухода за комнатными растениями.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  dio: ^5.4.3+1
+  flutter_secure_storage: ^9.2.2
+  fl_chart: ^0.68.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

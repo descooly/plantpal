@@ -1,0 +1,18 @@
+# Flutter
+client/.dart_tool/
+client/.idea/
+client/build/
+client/ios/
+client/macos/
+client/windows/
+client/linux/
+client/pubspec.lock
+
+# Python
+server/__pycache__/
+server/.venv/
+*.pyc
+
+# Docker / K8s
+*.log
+.DS_Store
